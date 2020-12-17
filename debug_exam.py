@@ -131,24 +131,29 @@ if __name__ == '__main__':
     
     5)b)There was an identation error because of which it was not being read.
     
-    5)c)
-    Test case 1
-    4
-    1 2
-    3 3
-    3 8
-    4 9
-    2
-    3 3 
-    4 4
-    Test Case 2
-    4 
-    1 2
-    2 2
-    3 3 
-    4 19
-    2
-    3 3 
-    4 19
-    Test Case 3
-    The test case written in 5a can be used .
+   
+   5)c)
+(I)Input 
+n1=3
+1 2
+2 2
+9 4
+n2=2
+3 3
+1 4
+expected output
+{2:2,9:4,3:3}
+[[3,3],[1,4]]
+{1:[2,4]}
+
+(i i)
+n1=2
+1 2
+2 4
+n2=2
+3 4
+2 5
+expected output
+{1:2,3:4}
+[[3,4],[2,5]]
+{2:[4,5]}
