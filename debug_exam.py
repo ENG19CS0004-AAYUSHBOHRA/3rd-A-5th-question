@@ -112,3 +112,43 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+    
+    Answers Q5:
+    5)a)
+    input-
+    3
+    1 2
+    2 2
+    8 7 
+    2
+    3 3
+    2 9
+    We have to get the output as 
+    {1:2,8:7,3:3}
+    [[3,3],[2,9]]
+    {2,[2,9]}
+    But this is not we get frm the code as mentioned above
+    
+    5)b)There was an identation error because of which it was not being read.
+    
+    5)c)
+    Test case 1
+    4
+    1 2
+    3 3
+    3 8
+    4 9
+    2
+    3 3 
+    4 4
+    Test Case 2
+    4 
+    1 2
+    2 2
+    3 3 
+    4 19
+    2
+    3 3 
+    4 19
+    Test Case 3
+    The test case written in 5a can be used .
